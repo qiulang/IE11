@@ -3,6 +3,7 @@ import App from "./App.vue";
 // import "core-js";
 
 import debug from "debug";
+localStorage.debug = 'app:*'
 const info = debug("app:info");
 
 info("hi debug");
