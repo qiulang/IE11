@@ -8,14 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "//": [
-    "If I use debug 3.2.5, IE 11 can show the page",
+    "If I use debug 3.2.6, IE 11 can show the page",
     "if I use debug 4.1.1, IE 11 shows a blank page"
   ],
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "core-js": "^3.3.2",
-    "debug": "4.1.1",
+    "debug": "3.2.6",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -49,10 +49,5 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ],
-  "vue": {
-    "transpileDependencies": [
-      "debug"
-    ]
-  }
+  ]
 }
