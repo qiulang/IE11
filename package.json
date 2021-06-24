@@ -9,19 +9,20 @@
   },
   "//": [
     "If I use debug 3.2.6, IE 11 can show the page",
-    "if I use debug 4.1.1, IE 11 shows a blank page"
+    "if I use debug 4.1.1, IE 11 shows a blank page b/c of SCRIPT1002 error"
   ],
   "dependencies": {
-    "@babel/polyfill": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.7",
     "core-js": "^3.3.2",
-    "debug": "3.2.6",
+    "debug": "^4.3.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-plugin-eslint": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
+    "@vue/cli-plugin-babel": "^4.1.0-beta.0",
+    "@vue/cli-plugin-eslint": "^4.1.0-beta.0",
+    "@vue/cli-service": "^4.1.0-beta.0",
+    "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
